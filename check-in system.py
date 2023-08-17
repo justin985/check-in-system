@@ -7,7 +7,7 @@ script_path = os.path.abspath(os.path.dirname(__file__))
 os.chdir(script_path)
 
 api_key = dotenv_values('.env')["aaa"]
-video_id = "5g1u4Iya80E"
+video_id = ""
 
 
 def load(filename):
